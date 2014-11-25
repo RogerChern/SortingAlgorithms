@@ -1,2 +1,2 @@
 randperm.o: randperm.cc
-	clang++ -c randperm.cc -std=c++1y -stdlib=libc++ -O3
+	g++ -c randperm.cc -std=c++1y -O3
