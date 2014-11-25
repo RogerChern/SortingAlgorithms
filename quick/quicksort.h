@@ -2,6 +2,6 @@
 #include<memory>
 using namespace std;
 
-int partition(vector<int> &, int, int);
+void quicksort(vector<int> &);
 
-void quicksort(vector<int> &, int, int);
+int quickselect(vector<int> &, int);
